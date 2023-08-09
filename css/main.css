@@ -1,0 +1,440 @@
+/* desktop media start */
+
+@media (min-width: 835px) {
+
+  .header {
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+
+  }
+
+  nav {
+
+    display: flex;
+    width: 1200px;
+    height: 75px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+  }
+
+  .nav_menu {
+
+    display: none;
+  }
+
+  .logo {
+
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+  .topnav span {
+
+    margin-left: 50px;
+
+  }
+
+  .topnav {
+
+    list-style: none;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav li {
+    padding-top: 20px;
+    flex-basis: calc(20% - 10px);
+    /* Adjust the width as needed */
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: var(--bs-gradient);
+  }
+
+  .topnav a:active {
+
+    line-height: 50px;
+    ;
+
+  }
+
+  .topnav a:visited,
+  a:link {
+    line-height: 50px;
+
+
+  }
+
+  .topnav a:hover {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: block;
+    background-color: dodgerblue;
+    text-align: center;
+    line-height: 50px;
+
+
+  }
+
+  .topnav.special_li {
+
+    flex-basis: calc(40% - 10px);
+
+  }
+
+  nav .login {
+    display: flex;
+    width: 160px;
+    height: 35px;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 30px;
+    background-image: url("../images/large/login.jpg");
+    /* Set the path to your image */
+    background-repeat: no-repeat;
+    /* Prevent image from repeating */
+    background-position: 5px 15px;
+    /* Position the image 20px from the left */
+
+  }
+  .banner {
+    width: 100%;
+    background-color: #ccc;
+  }
+  .banner img {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ 
+ }
+  .content-container {
+    margin: auto;
+    width: 1198px;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    padding-top: 40px;
+
+  }
+
+
+  .content-container h3 {
+
+    padding-bottom: 30px;
+
+  }
+
+  .content-container p {
+    font-size: 16px;
+    line-height: 35px;
+
+  }
+
+  .category_title {
+
+    padding-top: 80px;
+
+  }
+
+  .category {
+
+    padding-top: 60px;
+  }
+
+  .pb-5 {
+
+    padding-bottom: 80px !important;
+
+
+  }
+
+  .question {
+
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .title {
+
+    font-weight: bold;
+
+  }
+
+  .question dt {
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 30px;
+  }
+
+  .question dd {
+    padding-left: 350px;
+    padding-top: 38px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid #666;
+    ;
+
+
+  }
+
+  .question .last_dd {
+
+    border: none;
+  }
+
+  .footer {
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    border-top: 1px solid #666;
+    color: #666;
+
+  }
+
+  .footer_nav {
+
+    font-weight: bold;
+
+  }
+  .mobile_footer,.footer_dropdown1,.footer_dropdown2,.footer_dropdown3,.footer_dropdown4,.footer_dropdown5 {
+    display: none!important;
+  }
+
+}
+
+
+/* mobile media start */
+
+@media (max-width: 431px) {
+
+  header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    width: 430px;
+    margin: auto;
+
+  }
+
+  nav {
+    display: flex;
+    width: 430px;
+
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .nav_menu {
+    padding-right: 15px;
+
+  }
+
+  .nav_menu .img {
+
+    vertical-align: right;
+  }
+
+  .logo {
+
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+
+  .login,.nav_ico, .topnav {
+
+    display: none;
+
+  }
+
+  .logo {
+
+    display: block;
+    padding-left: 38px;
+
+
+  }
+  
+
+  #nav_dropdown {
+    text-align: center;
+     background-color: #333;
+
+  }
+
+
+  #nav_dropdown ul {
+
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #nav_dropdown ul li a {
+
+    color: #333;
+    text-decoration: none;
+    transition: background-color 1s;
+    display: block;
+    padding: 0.5rem;
+    background-color: #fff;
+
+    margin: 1px;
+  }
+
+
+  #nav_dropdown ul li a:hover {
+
+    padding: 0.5rem;
+    color: #fff;
+    background: dodgerblue;
+
+
+  }
+  .banner img {
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ 
+ }
+  .content-container .pic {
+
+    display: none;
+  }
+
+.content-container {
+
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+  .create_content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .create_content p {
+
+    text-align: left;
+    line-height: 30px;
+  }
+
+
+  .category_title {
+
+    padding-top: 80px;
+
+  }
+
+  .category {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 60px;
+    /* padding-left: 35px;
+    padding-right: 35px; */
+  }
+.category_content {
+  justify-content: center;
+  width: 337px;
+  align-items: center;
+}
+  .pb-5 {
+
+    padding-bottom: 80px !important;
+
+
+  }
+
+
+.question dt {
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 20px;
+
+}
+
+.question dd {
+
+    line-height: 30px;
+
+}
+  .title {
+
+    font-weight: bold;
+
+  }
+.footer {
+
+    display: none !important;
+  }
+
+  .mobile_footer {
+     
+     line-height: 40px;
+     font-size: 20px;
+      padding-bottom: 10px;
+      border-bottom: #333 1px solid;
+      justify-content: center;
+      align-items: center;
+  }
+  .collapse  li a {
+
+    color: #333;
+    text-decoration: none;
+    transition: background-color 1s;
+    display: block;
+    padding: 0.5rem;
+    background-color: #fff;
+
+    margin: 1px;
+  }
+
+  .collapse a:hover {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: block;
+    background-color: dodgerblue;
+    text-align: center;
+    line-height: 50px;
+
+
+  }
+
+  #footer_dropdown1,#footer_dropdown2,#footer_dropdown3,#footer_dropdown4,#footer_dropdown5 {
+    text-align: center;
+     background-color: #666;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
